@@ -30,20 +30,19 @@ body {
     background-repeat: repeat-x;
     position: absolute;
     top: 57vh;
-    animation: carmove linear 13s infinite;
-
-}
+    animation: carmove linear 6s infinite;
+  }
 
 .car {
-    height: 100px;
-    width: 380px;
-    background-image: url(car_body.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 444px;
-    bottom: 40vh;
-    animation: shake linear 1s infinite;
+  height: 100px;
+  width: 380px;
+  background-image: url(car_body.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  bottom: 40vh;
+  animation: shake linear 1s infinite;
 }
 
 
@@ -52,7 +51,7 @@ body {
     position: relative;
     top: 39px;
     left: 45px;
-    animation: wheelrotation linear .16s infinite;
+    animation: wheelrotation linear .50s infinite;
 }
 
 
@@ -61,7 +60,7 @@ body {
     position: absolute;
     top: 40px;
     left: 235px;
-    animation: wheelrotation linear .16s infinite;
+    animation: wheelrotation linear .50s infinite;
 
 }
 
